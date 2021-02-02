@@ -1,6 +1,11 @@
-<section id="root">
+<main id="root">
 
-<div class="container flex">
+ <div class="container flex">
+    <?php 
+
+      
     
-</div>
-</section>
+    
+    ?>
+ </div>
+</main>

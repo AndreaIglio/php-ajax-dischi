@@ -3,14 +3,15 @@
  <div class="container flex movie">
     <?php 
 
-       foreach ($movies as $key => $value) {
+       foreach ($albums as $key => $value) {
       // var_dump($value);
-      foreach ($value as $key => $listmovie) { ?>
+      foreach ($value as $key => $listalbum) { ?>
          
          <div class="movie_card flex column">
-         <h3><?php echo $listmovie['title']; ?></h3>
-         <h4><?php echo $listmovie['author'] ?></h4>
-         <h5><?php echo $listmovie['year']?> </h5>
+         <img src="<?php echo $listalbum['poster'] ?>" style="width:200px" alt="">
+         <h3><?php echo $listalbum['title']; ?></h3>
+         <h4><?php echo $listalbum['author'] ?></h4>
+         <h5><?php echo $listalbum['year']?> </h5>
          
          </div>
 

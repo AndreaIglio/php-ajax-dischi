@@ -12,9 +12,3 @@
     <title>Ajax-Dischi</title>
 </head>
 <body>
-    
-
-
-
-
-

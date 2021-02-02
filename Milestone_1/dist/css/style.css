@@ -18,3 +18,14 @@
 .navbar {
   background-color: black !important;
 }
+
+.movie {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movie_card {
+  width: calc(100%/3);
+  align-items: center;
+  justify-content: center;
+}

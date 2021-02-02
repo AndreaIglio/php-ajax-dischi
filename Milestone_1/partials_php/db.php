@@ -13,10 +13,16 @@
    foreach ($movies as $key => $value) {
       // var_dump($value);
       foreach ($value as $key => $listmovie) {
-         var_dump($listmovie);
+         // var_dump($listmovie);
       }
    }
 ?>
 
+<!-- 
 
-
+array (size=5)
+  'poster' => string 'https://m.media-amazon.com/images/I/71K9CbNZPsL._SS500_.jpg' (length=59)
+  'title' => string 'Bad' (length=3)
+  'author' => string 'Michael Jacjson' (length=15)
+  'genre' => string 'Pop' (length=3)
+  'year' => string '1987' (length=4) -->

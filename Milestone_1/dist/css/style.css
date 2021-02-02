@@ -1,1 +1,25 @@
+body {
+  background-color: #262626;
+  color: white;
+}
 
+.wrapper {
+  width: 100vw;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.navbar {
+  background-color: black !important;
+}

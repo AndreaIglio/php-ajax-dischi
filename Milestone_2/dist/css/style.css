@@ -1,0 +1,57 @@
+body {
+  background-color: white;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 100vw;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.navbar {
+  background-color: black !important;
+}
+
+main {
+  padding-top: 150px;
+}
+
+.movie {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movie_card {
+  background-color: black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px 20px;
+  width: calc(100%/4);
+  align-items: center;
+  justify-content: center;
+}
+.movie_card h3,
+.movie_card h4,
+.movie_card h5 {
+  text-align: center;
+  margin: 10px 0px;
+}
+.movie_card h3 {
+  color: white;
+}
+.movie_card h4,
+.movie_card h5 {
+  color: gray;
+}

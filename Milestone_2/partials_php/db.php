@@ -10,6 +10,4 @@
 
    echo $response;
 
-
-//    var_dump($albums_encode);
 ?>

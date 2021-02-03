@@ -1847,7 +1847,9 @@ __webpack_require__.r(__webpack_exports__);
 var app = new vue__WEBPACK_IMPORTED_MODULE_0__.default({
   el: '#root',
   data: {
-    albumsList: ''
+    initValue: 'All',
+    albumsList: '',
+    authorList: ['All']
   },
   methods: {},
   mounted: function mounted() {
@@ -1856,9 +1858,12 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0__.default({
     var axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 
     axios.get('./partials_php/db.php').then(function (response) {
-      // console.log(response);
       _this.albumsList = response.data.response;
       console.log(_this.albumsList);
+
+      _this.albumsList.forEach(function (element) {
+        _this.authorList.push(element.author);
+      });
     })["catch"](function (err) {
       console.log(err);
     });

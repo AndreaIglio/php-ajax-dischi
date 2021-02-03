@@ -2,6 +2,13 @@ main {
     padding-top: 150px;
 }
 
+
+.artist_select {
+    color: $white_color;
+    justify-content: center;
+
+}
+
 .movie {
     flex-wrap: wrap;
     justify-content: space-around;
